@@ -1,4 +1,4 @@
-module github.com/mmpx12/optionparser
+module github.com/edditeddict/optionparser
 
 go 1.14
 
