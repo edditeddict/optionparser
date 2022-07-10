@@ -6,7 +6,6 @@ package optionparser
 
 import (
 	"fmt"
-	"github.com/common-nighthawk/go-figure"
 	"math/rand"
 	"os"
 	"regexp"
@@ -66,12 +65,12 @@ func (op *OptionParser) Logo(name string, font string, nobanner bool) {
 	if nobanner {
 		return
 	}
-	if font == "random" {
-		font = randomFont()
-	}
-	myFigure := figure.NewFigure(name, font, true)
-	myFigure.Print()
-	fmt.Println("")
+	//if font == "random" {
+	//	font = randomFont()
+	//}
+	//myFigure := figure.NewFigure(name, font, true)
+	//myFigure.Print()
+	fmt.Println(name)
 }
 
 // Get a random font
