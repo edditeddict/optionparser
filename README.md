@@ -4,12 +4,12 @@
 optionparser
 ============
 
-Ruby (OptionParser) like command line arguments processor. Forked Cause Go in Windows is detecting nighthawk go-figure as a virus
+Ruby (OptionParser) like command line arguments processor. Forked Cause Go in Windows is detecting nighthawk go-figure as a virus, but the Extra Option is nice!
 
 Installation
 ------------
 
-    go get github.com/mmpx12/optionparser
+    go get github.com/edditeddict/optionparser
 
 Usage
 -----
